@@ -6,7 +6,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 
 
-@EventBusSubscriber(modid = Reference.MODID)
+@EventBusSubscriber(modid = Reference.MOD_ID)
 public class BothSidesEventHandler {
     @SubscribeEvent
     public static void registerEntityAttributes(net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent event) {

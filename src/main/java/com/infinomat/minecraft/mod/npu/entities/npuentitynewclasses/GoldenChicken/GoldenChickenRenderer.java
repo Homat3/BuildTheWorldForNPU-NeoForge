@@ -1,7 +1,7 @@
 package com.infinomat.minecraft.mod.npu.entities.npuentitynewclasses.GoldenChicken;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.infinomat.minecraft.mod.npu.util.Reference;
+import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.entity.ChickenRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.ChickenRenderState;
@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class GoldenChickenRenderer extends ChickenRenderer {
     private static final ResourceLocation GOLDEN_CHICKEN_TEXTURES =
-            ResourceLocation.fromNamespaceAndPath(Reference.MODID, "textures/entity/g/golden_chicken.png");
+            ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "textures/entity/g/golden_chicken.png");
 
 
     public GoldenChickenRenderer(EntityRendererProvider.Context context) {

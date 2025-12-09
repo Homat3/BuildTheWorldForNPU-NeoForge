@@ -1,0 +1,64 @@
+{
+  "id": "dining_hall_block",
+  "group": [
+    {
+      "template": "horizontal_meticulous_iron_model",
+      "items": [
+        "blue_dining_table_1",
+        "blue_dining_table_2",
+        "blue_dining_table_3",
+        "orange_dining_table",
+        "red_dining_table"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "metal_big_cabinet1",
+        "metal_big_cabinet2",
+        "metal_big_cabinet3",
+        "metal_large_table",
+        "metal_table1x1",
+        "metal_trashcan",
+        "metal_trolley1",
+        "metal_trolley3"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_cutout",
+      "items": [
+        "cafeteria_bar_refrigerator"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "cafeteria_bar_beverage",
+        "cafeteria_bar_card_machine",
+        "cafeteria_bar_corner",
+        "cafeteria_bar_straight",
+        "canteen_chopstick_sterilizer",
+        "canteen_plastic_storage_box",
+        "canteen_plastic_storage_box_bowl",
+        "metal_trolley2"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "cart_cutlery",
+        "dining_hall_xingbei_maocai_cabin_board",
+        "dining_hall_xingbei_maocai_cabin_board_pillar_left"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "dining_hall_seasonging_table",
+        "metal_shelf_1",
+        "metal_shelf_2",
+        "metal_trashcan_dining_hall"
+      ]
+    }
+  ]
+}

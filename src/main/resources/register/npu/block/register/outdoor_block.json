@@ -1,0 +1,82 @@
+{
+  "id": "outdoor_block",
+  "group": [
+    {
+      "template": "horizontal_rough_iron_model",
+      "items": [
+        "air_conditioner_out1"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "air_conditioner_out2",
+        "air_conditioner_out_right"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "trash_can_food_waste",
+        "trash_can_other",
+        "trash_can_roadside",
+        "trash_can_roadside_wood",
+        "trash_can_vertical"
+      ]
+    },
+    {
+      "template": "normal_rough_iron_occlusion",
+      "items": [
+        "monitoring_pole"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "park_bench"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion_cutout",
+      "items": [
+        "well_cover_full_1",
+        "well_cover_full_2",
+        "well_road_cover_full_1",
+        "well_road_cover_full_2"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "base_tower_large",
+        "base_tower_small",
+        "base_tower_wire_rod",
+        "chair_long_park_45",
+        "lamp_floor_small",
+        "monitoring_crossbar",
+        "monitoring_pole_camera1",
+        "monitoring_pole_camera2",
+        "monitoring_pole_corner",
+        "monitoring_pole_flash",
+        "pipe_yellow_corner1",
+        "pipe_yellow_corner2",
+        "pipe_yellow_corner3",
+        "pipe_yellow_corner4",
+        "pipe_yellow_horizontal",
+        "pipe_yellow_vertical",
+        "white_pipe_3_interface",
+        "white_pipe_corner",
+        "white_pipe_straight",
+        "white_pipe_straight_with_bracket",
+        "skewer_hotpot_cart",
+        "stool_stone_small",
+        "stool_stone_small_45",
+        "truck_pit",
+        "trunk_medium",
+        "trunk_medium_white",
+        "trunk_thin",
+        "trunk_thin_white"
+      ]
+    }
+  ]
+}

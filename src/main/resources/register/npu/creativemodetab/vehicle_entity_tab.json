@@ -1,6 +1,0 @@
-{
-  "ID": "vehicle_entity_tab",
-  "ENUM_NAME": "VEHICLE_ENTITY_TAB",
-
-  "icon": {"type": "Item", "index": 0}
-}

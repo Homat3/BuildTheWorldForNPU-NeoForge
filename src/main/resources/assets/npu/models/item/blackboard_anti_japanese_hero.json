@@ -1,6 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "npu:item/b/blackboard_anti_japanese_hero"
-	}
-}

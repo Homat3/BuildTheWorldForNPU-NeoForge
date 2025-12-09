@@ -1,0 +1,22 @@
+{
+  "id": "item",
+  "group":[
+    {
+      "template": "spawn_mob",
+      "items": [
+        "golden_chicken_spawn_egg"
+      ]
+    },
+    {
+      "template": "normal_item",
+      "items": [
+        "ashes",
+        "homework_advanced_mathematics",
+        "notice_examination_arrangement",
+        "pig_food",
+        "rubbish_sword",
+        "strange_block"
+      ]
+    }
+  ]
+}

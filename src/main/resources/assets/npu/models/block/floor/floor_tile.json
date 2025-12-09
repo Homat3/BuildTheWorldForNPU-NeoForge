@@ -1,6 +1,0 @@
-{
-  "parent": "npu:block/template/cube_all",
-  "textures": {
-    "all": "npu:block/f/floor_tile"
-  }
-}

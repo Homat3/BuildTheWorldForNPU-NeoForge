@@ -4,6 +4,6 @@ import com.infinomat.minecraft.mod.npu.util.Reference;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber(modid = Reference.MODID, value = Dist.DEDICATED_SERVER)
+@EventBusSubscriber(modid = Reference.MOD_ID, value = Dist.DEDICATED_SERVER)
 public class ServerEventHandler {
 }

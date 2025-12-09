@@ -1,0 +1,101 @@
+{
+  "id": "sign_block",
+  "group": [
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "ordinance_billboard_1",
+        "ordinance_billboard_2",
+        "playground_sign1",
+        "playground_sign2",
+        "sign_dining_hall",
+        "sign_forbid_smoking",
+        "sign_institution",
+        "sign_institution_small",
+        "sign_wifi",
+        "sign_yty_tian",
+        "sign_yty_yuan",
+        "sign_yty_yun"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion_cutout",
+      "items": [
+        "sign_outdoor_caring_lawn"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "character_a",
+        "character_b",
+        "character_building",
+        "character_c",
+        "character_d",
+        "character_e",
+        "character_f",
+        "character_g",
+        "character_sky",
+        "character_star",
+        "poster_dining_hall1",
+        "poster_dining_hall1_off_center",
+        "poster_dining_hall2",
+        "poster_dining_hall2_off_center",
+        "sign_electric_slow_down",
+        "sign_indoor_bravery",
+        "sign_indoor_determination",
+        "sign_slow_moving",
+        "sign_slow_moving_2",
+        "sign_walking_area",
+        "sign_yinhelu_large_left",
+        "sign_yinhelu_large_right"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion_cutout",
+      "items": [
+        "flag_of_ccyl"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "road_sign_pole_off_center"
+      ]
+    },
+    {
+      "template": "normal_rough_iron_occlusion",
+      "items": [
+        "road_sign_pole"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_cutout",
+      "items": [
+        "blackboard_anti_japanese_hero",
+        "blackboard_core_socialist_values",
+        "league_badge"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "bus_waiting_spot_bottom",
+        "bus_waiting_spot_top",
+        "floor2",
+        "floor3",
+        "floor4",
+        "floor5",
+        "floor6",
+        "safety_exit_sign",
+        "save_water_sign",
+        "sign",
+        "signpost_bottom",
+        "signpost_top",
+        "sign_indoor_work_steadfastly",
+        "toilet_flush_sign",
+        "washroom_sign"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "customModel": true,
+  "id": "horizontal_rough_iron_model"
+}

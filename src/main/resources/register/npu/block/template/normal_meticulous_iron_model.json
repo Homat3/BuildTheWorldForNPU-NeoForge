@@ -1,0 +1,11 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "customModel": true,
+  "id": "normal_meticulous_iron_model"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "indoor_block",
+  "group": [
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "fire_hydrant_patch",
+        "frame_drink_blue_single",
+        "frame_drink_red_double",
+        "frame_drink_red_single",
+        "mop_pool_rear",
+        "screen",
+        "screen_rear"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_cutout",
+      "items": [
+        "party_membership_application"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion_cutout",
+      "items": [
+        "notebook_hero"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_model",
+      "items": [
+        "desk_classroom_blue_flat",
+        "desk_classroom_blue_high",
+        "desk_classroom_blue_low",
+        "desk_classroom_blue_medium",
+        "desk_classroom_blue_top",
+        "desk_classroom_wood_flat",
+        "desk_classroom_wood_high",
+        "desk_classroom_wood_low",
+        "desk_classroom_wood_medium",
+        "desk_classroom_wood_top"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "access_control_add1",
+        "access_control_add2",
+        "access_control_face_recognition",
+        "air_conditioner_in",
+        "atable",
+        "bulletin_board",
+        "cabinet_workshop1",
+        "cabinet_workshop2",
+        "cabinet_workshop3",
+        "cartons",
+        "cartons_group",
+        "central_air_conditioning_vent1",
+        "central_air_conditioning_vent2",
+        "central_air_conditioning_vent3",
+        "chair_with_board",
+        "classroom_doorplate",
+        "classroom_entrance_screen",
+        "classroom_microphone",
+        "desk_foldable",
+        "desk_foldable_covid19",
+        "desk_foldable_covid19_laptop",
+        "desk_metal_2",
+        "desk_workshop_narrow",
+        "desk_workshop_wide",
+        "desk_workshop_wide_double_drawer",
+        "desk_workshop_wide_single_drawer",
+        "digital_calendar",
+        "dormitory_fan",
+        "elamp",
+        "electric",
+        "fire_cabinet",
+        "full_length_mirror",
+        "girlshelf",
+        "girl_toilet_left",
+        "girl_toilet_right",
+        "girl_wash",
+        "indoor_staircase_45_degree_angle",
+        "indoor_staircase_ramp_high_section",
+        "indoor_staircase_ramp_low_section",
+        "light_common_fly_killer_ceiling",
+        "light_common_fly_killer_wall",
+        "light_dormitory_ceiling",
+        "light_dormitory_off_2_center",
+        "light_dormitory_off_4_center",
+        "light_floor",
+        "light_floor_ray",
+        "market_cashier_desk_left",
+        "market_cashier_desk_right",
+        "market_milk_box",
+        "market_office_cabinet_down",
+        "market_office_cabinet_up",
+        "mop_pool",
+        "painting_corridor",
+        "painting_exhibition_type_1",
+        "painting_exhibition_type_2",
+        "painting_exhibition_type_3",
+        "photo_frame_sworn",
+        "platform",
+        "platform_chair",
+        "platform_corner",
+        "platform_desk",
+        "printer",
+        "projector",
+        "staircase_cabinets",
+        "staircase_tiles_classroom",
+        "staircase_tiles_classroom_flat",
+        "staircase_tiles_classroom_high",
+        "staircase_tiles_classroom_low",
+        "staircase_tiles_classroom_medium",
+        "toilet",
+        "top_airconditioner",
+        "trapezoid_table",
+        "trash_classification_medical",
+        "urinal",
+        "voltage",
+        "washstand_back_to_left",
+        "washstand_back_to_right",
+        "water_boiler",
+        "wooden_desk",
+        "yunf_dormitory_door_back_to",
+        "yunf_dormitory_door_back_to_up",
+        "yunf_framed_sliding_door_backside",
+        "yunf_framed_sliding_door_backside_up",
+        "yunf_toilet_door_right",
+        "yunf_toilet_door_right_up",
+        "sink_left",
+        "sink_right"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_cutout",
+      "items": [
+        "beverage_cabinet_red",
+        "beverage_cabinet_yellow",
+        "fire_extinguisher_cabinet",
+        "vending_machine",
+        "vending_machine_signed",
+        "potted_plant_1",
+        "potted_plant_2",
+        "potted_plant_3"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "airconditioner_vertical",
+        "bathroom_single",
+        "bracket_whiteboard",
+        "camera_ceil",
+        "camera_wall",
+        "coffee_machine",
+        "desk_wood",
+        "drain_pipe_bottom",
+        "drain_pipe_mid",
+        "drain_pipe_mid_with_fixing_ring",
+        "drain_pipe_top",
+        "drain_pipe_top_into_wall",
+        "long_strip_light",
+        "long_strip_light_half",
+        "medical_mask",
+        "quadruple_drink_box_red",
+        "radiator",
+        "shelf_gongxun1",
+        "shelf_gongxun2",
+        "single_compartment_sink",
+        "sink_mid",
+        "small_electric_brake",
+        "spicy_pot_freezer",
+        "stove",
+        "stove_2_4",
+        "stove_pan_pot",
+        "supermarket_shelves",
+        "supermarket_shelves_side",
+        "supermarket_shelves_wall",
+        "wall_mounted_tv",
+        "washing_machine",
+        "workshop_cabinet_sink1",
+        "workshop_cabinet_sink2"
+      ]
+    },
+    {
+      "template": "horizontal_rough_rock",
+      "items": [
+        "market_cabinet_freezer"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_rock",
+      "items": [
+        "bedboy_left_table",
+        "bedboy_left_table_ladder",
+        "bedboy_right_table",
+        "bedboy_right_table_ladder",
+        "bedboy_right_table_ladder_laptop",
+        "bedgirl_left",
+        "bedgirl_right"
+      ]
+    },
+    {
+      "template": "normal_meticulous_rock",
+      "items": [
+        "light_dormitory_bathroom",
+        "light_dormitory_corridor"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "admission_letter_2021",
+        "bedgirl_double",
+        "chair",
+        "chair_plastic_black",
+        "chair_plastic_red",
+        "cleaning_toolbox",
+        "fan_ceiling",
+        "girl_table",
+        "pen_prop",
+        "radiator_behind_right",
+        "sink_behind_left",
+        "sink_behind_right",
+        "tableware_storage",
+        "table_empty",
+        "toilet_cloud_f_left",
+        "toilet_cloud_f_left_up",
+        "toilet_cloud_f_right",
+        "toilet_cloud_f_right_up",
+        "tv_ceiling_double",
+        "tv_ceiling_single"
+      ]
+    }
+  ]
+}

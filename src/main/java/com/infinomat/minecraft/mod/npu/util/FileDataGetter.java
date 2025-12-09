@@ -25,7 +25,6 @@ public class FileDataGetter<T> {
         this.dataPath = dataPath;
         this.tClass = tClass;
 
-
         initialize();
     }
     public FileDataGetter(String dataPath, Class<T> tClass) {

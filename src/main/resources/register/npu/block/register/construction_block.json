@@ -1,0 +1,196 @@
+{
+  "id": "construction_block",
+  "group": [
+    {
+      "template": "normal_rough_iron_occlusion",
+      "items": [
+        "flat_ceiling_light_3c",
+        "flat_ceiling_light_half",
+        "flat_ceiling_light_whole"
+      ]
+    },
+    {
+      "template": "normal_meticulous_iron",
+      "items": [
+        "blue_ceramic_tile_lower_half_brick",
+        "marble_tiles_black",
+        "obsidian_block",
+        "qingda_cement_double_tile"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "sewer_half_brick",
+        "cement_brick_slab_v",
+        "cross_grain_floor_tile",
+        "cyan_terracotta_slab_v",
+        "dining_hall_counter_full_hole_bottom",
+        "dining_hall_counter_half_hole_bottom",
+        "double_material_wall_dado_slab_vertical_left",
+        "double_material_wall_dado_slab_vertical_right",
+        "double_material_wall_dado_v5",
+        "double_material_wall_vertical_5of8_brick",
+        "double_material_wall_vertical_half_left",
+        "double_material_wall_vertical_half_right",
+        "drain_brick",
+        "grille_ceiling_white",
+        "grille_ceiling_white_corner",
+        "grille_ceiling_white_edge",
+        "limed_wall_dado_slab_v1",
+        "limed_wall_dado_slab_v3",
+        "limed_wall_slab_v5",
+        "limed_wall_slab_v7",
+        "portable_dwellings_roof_blue",
+        "portable_dwellings_roof_white",
+        "quartz_block_slab_v",
+        "slate_floor_tile_dark",
+        "teachingbuilding_east_innerwall_down",
+        "teachingbuilding_east_innerwall_up",
+        "teachingbuilding_east_outwall_down",
+        "teachingbuilding_east_outwall_up",
+        "wall_stem_quarter"
+      ]
+    },
+    {
+      "template": "normal_rough_rock",
+      "items": [
+        "blue_grid_brick",
+        "limed_wall",
+        "limed_wall_dado",
+        "white_grid_brick",
+        "yellow_floor"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "brick_stone_vertical_16",
+        "brick_stone_vertical_256",
+        "stair",
+        "stair_cement_down_lightblue",
+        "stair_cement_up_lightblue",
+        "stair_cement_lightblue",
+        "stair_inner_corner",
+        "stair_outdoor",
+        "stair_outdoor_inner_corner",
+        "stair_outdoor_outer_corner",
+        "stair_outer_corner",
+        "stair_patches",
+        "terracotta_cyan_vertical_16",
+        "terracotta_cyan_vertical_256"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "balcony_white_ceramic_tiles_in_yun_f",
+        "blue_ceramic_tile_vertical_quarter_brick",
+        "blue_floor",
+        "blue_white_double_sided_dual_material_wall",
+        "blue_white_wall_skirt_with_dual_material_walls_both_sides",
+        "cement_brick_white_dual_material_wall",
+        "corridor_pillar",
+        "floor_tile",
+        "gentle_slope_staircase_high_section",
+        "gentle_slope_staircase_low_section",
+        "green_fine_wood_dual_material_wall",
+        "green_vertical_half_brick_inner_corner",
+        "limed_wall_dado_slab_corner_v2",
+        "limed_wall_dado_slab_corner_v4",
+        "limed_wall_slab_corner_v6",
+        "limed_wall_slab_corner_v8",
+        "marble_floor_light",
+        "marble_pillar_vertical_half_brick",
+        "obsidian_frame",
+        "pedestrian_road_pattern_brick_red",
+        "pedestrian_road_pattern_brick_white",
+        "plastic_brick_wall",
+        "plastic_brick_wall_skewed",
+        "plastic_brick_wall_vertical_half_brick",
+        "qingyang_vertical_half_brick",
+        "slate_floor_tiles_staggered_style_1",
+        "slate_floor_tiles_staggered_style_2",
+        "slate_floor_tiles_style_1",
+        "slate_floor_tiles_style_2",
+        "slate_floor_tiles_style_3",
+        "slope_staircase_high_section_inner_corner",
+        "slope_staircase_high_section_outer_corner",
+        "slope_staircase_low_section_inner_corner",
+        "slope_staircase_low_section_outer_corner",
+        "small_ceramic_tiles",
+        "stone_brick_blue_ceramic_tile_double_tile",
+        "stone_brick_cement_brick_wall_double_tile",
+        "stone_brick_dual_material_wall",
+        "stone_brick_dual_material_wall_with_wall_skirt",
+        "stone_brick_vertical_half_brick",
+        "stone_brick_vertical_quarter_brick",
+        "teachingbuilding_east_guardrail",
+        "ventilation",
+        "vertical_half_brick_cement_wall",
+        "white_grid_top_teachingbuilding_east",
+        "white_grid_top_teachingbuilding_east_edge",
+        "wooden_grid_top_teachingbuilding_east",
+        "wooden_grid_top_teachingbuilding_east_edge"
+      ]
+    },
+    {
+      "template": "normal_rough_iron",
+      "items": [
+        "blue_marble_brick",
+        "cement_brick_lightblue",
+        "grille_ceiling",
+        "grille_ceiling_audio",
+        "grille_ceiling_biglight",
+        "grille_ceiling_camera",
+        "grille_ceiling_floor_tile",
+        "grille_ceiling_smalllight",
+        "marble_pillar",
+        "marble_tiles",
+        "mesh",
+        "mudstone_brick",
+        "red_brick_floor",
+        "small_slate_floor_tiles",
+        "small_stone_brick_wall",
+        "thin_wooden_board",
+        "top_half_brick_cement_wall",
+        "white_stone_brick"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "ventilation_duct_corner",
+        "ventilation_duct_holder",
+        "ventilation_duct_straight",
+        "ventilation_duct_vertical",
+        "ventilation_duct_vertical_corner",
+        "white_grid_top_teachingbuilding_east_light",
+        "wooden_grid_top_teachingbuilding_east_light"
+      ]
+    },
+    {
+      "template": "normal_half_iron_double",
+      "items": [
+        "blue_marble_brick_slab",
+        "cement_brick_slab_lightblue",
+        "small_stone_brick_wall_slab"
+      ]
+    },
+    {
+      "template": "horizontal_rough_rock",
+      "items": [
+        "cement_brick_wall",
+        "cement_brick_wall_dark",
+        "cement_brick_wall_slab_v",
+        "double_material_wall",
+        "double_material_wall_dado",
+        "gray_brick_wall",
+        "gray_brick_wall_slab_v",
+        "portable_dwellings_wall",
+        "red_marble_wall",
+        "white_porcelain_wall"
+      ]
+    }
+  ]
+}

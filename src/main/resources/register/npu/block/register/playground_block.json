@@ -1,0 +1,43 @@
+{
+  "id": "playground_block",
+  "group": [
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "chair_auditorium_blue",
+        "chair_auditorium_half_blue",
+        "chair_auditorium_half_red",
+        "chair_auditorium_red",
+        "playground_badminton_net",
+        "playground_badminton_net_side",
+        "playground_fence_down",
+        "playground_fence_down2",
+        "playground_fence_down_clapboard",
+        "playground_fence_down_corner",
+        "playground_fence_down_triangle",
+        "playground_fence_up",
+        "playground_fence_up2",
+        "playground_fence_up_clapboard",
+        "playground_fence_up_corner",
+        "playground_fence_up_triangle",
+        "playground_volleyball_net",
+        "playground_volleyball_net_side"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "playground_grass_dry",
+        "playground_green",
+        "playground_plastic_green",
+        "playground_red",
+        "chair_lightblue",
+        "gray_brick",
+        "playground_door_closed",
+        "playground_door_opened_left",
+        "playground_door_opened_right",
+        "playground_light"
+      ]
+    }
+  ]
+}

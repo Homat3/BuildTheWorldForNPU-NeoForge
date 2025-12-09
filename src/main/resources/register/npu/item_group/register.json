@@ -1,0 +1,22 @@
+{
+  "id": "item_group_register",
+  "group": [
+    {
+      "template": "index_0",
+      "items": [
+        "item_tab",
+        "vehicle_entity_tab",
+        "area_block_tab",
+        "construction_block_tab",
+        "dining_hall_block_tab",
+        "door_and_window_block_tab",
+        "indoor_block_tab",
+        "model_block_tab",
+        "outdoor_block_tab",
+        "playground_block_tab",
+        "road_block_tab",
+        "sign_block_tab"
+      ]
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 package com.infinomat.minecraft.mod.npu.blocks;
 
-import com.mojang.logging.LogUtils;
-import com.infinomat.minecraft.mod.npu.blocks.dataofnpublocks.DataOfNpuBlocks;
-import com.infinomat.minecraft.mod.npu.blocks.dataofnpublocks.ShapeData;
 import com.infinomat.minecraft.mod.npu.blocks.npublocknewclasses.*;
-import com.infinomat.minecraft.mod.npu.creativemodtab.dataofnpucreativemodetabs.DataOfNpuCreativeModeTabs;
+import com.infinomat.minecraft.mod.npu.blocks.npublocknewclasses.common.Common;
 import com.infinomat.minecraft.mod.npu.util.FileDataGetter;
 import com.infinomat.minecraft.mod.npu.util.FolderDataGetter;
+import com.infinomat.minecraft.mod.npu.util.PathTools;
 import com.infinomat.minecraft.mod.npu.util.Reference;
+import com.infinomat.minecraft.mod.npu.util.register.data.RegisterList;
+import com.infinomat.minecraft.mod.npu.util.register.data.template.BlockShapeData;
+import com.infinomat.minecraft.mod.npu.util.register.data.template.BlockTemplate;
+import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -23,42 +25,58 @@ import org.slf4j.Logger;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.function.ToIntFunction;
 
 public class NpuBlocks {
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Reference.MODID);
-    public static final String dataPath = Reference.PATH.get(Reference.PathType.BLOCK);
-    public static final List<DataOfNpuCreativeModeTabs> dataList = new FolderDataGetter<>(Reference.PATH.get(Reference.PathType.CREATIVEMODETAB), DataOfNpuCreativeModeTabs.class).getList();
+    public static final String templateFolder = "template";
+    public static final String registerFoder = "register";
+    public static final String baseFolderPath = PathTools.linkPath(Reference.PATH.get(Reference.PathType.LOADER), Reference.PATH.get(Reference.PathType.BLOCK));
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Reference.MOD_ID);
 
-    //创造模式物品栏表
-    public static final Map<String, TabType> tabTypeMap = new HashMap<>(0);
+    public static final HashMap<String, RegisterList> RegisterListMap = new HashMap<>();    // 待注册方块分类映射表
+    public static final HashMap<DeferredBlock<Block>, String> BlockIdMap = new HashMap<>(); // 方块id表
+    private static final HashMap<String, BlockRegister> TemplateMap = new HashMap<>();      // 注册模板表
+    public static final HashMap<String, List<DeferredBlock<Block>>> CreativeModeTabMap = new HashMap<>();    // 物品栏-方块映射
+
+    public static final List<DeferredBlock<Block>> blocks = new ArrayList<>();   // 方块表
 
     static {
-        LOGGER.info("Loading NPU Blocks...");
-        // 方块注册
-        for (DataOfNpuCreativeModeTabs tabData : dataList) {
-            var list = new FolderDataGetter<>(dataPath + '/' + tabData.ID.substring(0, tabData.ID.length() - 4), DataOfNpuBlocks.class).getList();
-            if (!(list == null || list.isEmpty())) tabTypeMap.put(tabData.ENUM_NAME, new TabType(list));
+        loadRegisterList();
+        loadTemplate();
+        register();
+    }
+    private static void loadRegisterList() {
+        LOGGER.info("Loading Block Register List...");
+        String folderPath = PathTools.linkPath(baseFolderPath, registerFoder);
+
+        for (RegisterList registerList : new FolderDataGetter<>(folderPath, RegisterList.class).getList()) {
+            RegisterListMap.put(registerList.getId(), registerList);
         }
-        LOGGER.info("Registering NPU Blocks...");
-        for (TabType tabType : tabTypeMap.values())
-            tabType.registerBlocks();
+    }
+    private static void loadTemplate() {
+        LOGGER.info("Loading Block Template...");
+        String folderPath = PathTools.linkPath(baseFolderPath, templateFolder);
+
+        for (BlockTemplate blockTemplate : new FolderDataGetter<>(folderPath, BlockTemplate.class).getList()) {
+            TemplateMap.put(blockTemplate.getId(), BlockRegister.create(blockTemplate));
+        }
     }
 
-    //一个构造方法
-    public static BlockBehaviour.Properties createBlockPropertiesOfMaterial(EnumMaterial material) {
-        return BlockBehaviour.Properties.of()
-                .strength(material.getStrength())
-                .sound(material.getSound())
-                .lightLevel(material.getLightLevel())
-                .friction(material.getFriction());
+    private static void register() {
+        for (var itemGroup : RegisterListMap.keySet()){
+            CreativeModeTabMap.put(itemGroup, new ArrayList<>());
+            for (var group: RegisterListMap.get(itemGroup).getGroups()){
+                CreativeModeTabMap.get(itemGroup).addAll(TemplateMap.get(group.template).register(group.items));
+            }
+        }
     }
 
-    public static TabType getTabType(String ENUM_NAME) {
-        return tabTypeMap.get(ENUM_NAME);
+    public static Item.Properties createBlockItemProperties(DeferredBlock<Block> BLOCK) {
+        Item.Properties properties = new Item.Properties();
+        BLOCK.getId();
+        return properties.setId(ResourceKey.create(ResourceKey.createRegistryKey(BLOCK.getId()), BLOCK.getId()));
     }
 
     public enum StructureType {
@@ -70,7 +88,7 @@ public class NpuBlocks {
         DOOR_AND_WINDOW
     }
 
-    public enum EnumMaterial {
+    public enum Material {
         //EXAMPLE("example", 硬度, 音效包, (BlockState state) ->{根据不同的blockstate返回不同的亮度值}, 阻力系数，即站在上面的移速),
         IRON("iron", 5.0F, SoundType.METAL, (BlockState state) -> 0, 0.6F),
         ROCK("rock", 2.5F, SoundType.STONE, (BlockState state) -> 0, 0.6F);
@@ -82,7 +100,7 @@ public class NpuBlocks {
         private final ToIntFunction<BlockState> lightLevel;
         private final float friction;
 
-        EnumMaterial(String name, float strength, SoundType sound, ToIntFunction<BlockState> lightLevel, float friction) {
+        Material(String name, float strength, SoundType sound, ToIntFunction<BlockState> lightLevel, float friction) {
             this.name = name;
             this.strength = strength;
             this.sound = sound;
@@ -90,24 +108,12 @@ public class NpuBlocks {
             this.friction = friction;
         }
 
+        public BlockBehaviour.Properties addToProperties(BlockBehaviour.Properties properties) {
+            return properties.strength(strength).sound(sound).lightLevel(lightLevel).friction(friction);
+        }
+
         public String getName() {
             return this.name;
-        }
-
-        public float getStrength() {
-            return strength;
-        }
-
-        public SoundType getSound() {
-            return sound;
-        }
-
-        public ToIntFunction<BlockState> getLightLevel() {
-            return lightLevel;
-        }
-
-        public float getFriction() {
-            return friction;
         }
     }
 
@@ -133,80 +139,51 @@ public class NpuBlocks {
     }
 
     //一些常用属性
-    public static class TabType {
-        //新方块表
-        public final ArrayList<DeferredBlock<Block>> blockList;
-        //新方块ID映射表
-        public final Map<DeferredBlock<Block>, String> IDMap;
-        //新方块属性表
-        final List<DataOfNpuBlocks> dataList;
-
-        public TabType(List<DataOfNpuBlocks> dataList) {
-            this.dataList = dataList;
-            this.blockList = new ArrayList<>(0);
-            this.IDMap = new HashMap<>(0);
+    private record BlockRegister(BlockTemplate template) {
+        public static BlockRegister create(BlockTemplate template) {
+            return new BlockRegister(template);
         }
 
-        public Item.Properties createBlockItemProperties(DeferredBlock<Block> BLOCK) {
-            Item.Properties properties = new Item.Properties();
-            if (BLOCK.getId() != null) {
-                return properties.setId(ResourceKey.create(ResourceKey.createRegistryKey(BLOCK.getId()), BLOCK.getId()));
-            }
-            return properties;
-        }
-
-        public void registerBlocks() {
-            for (DataOfNpuBlocks data : dataList) {
+        public List<DeferredBlock<Block>> register(List<String> ids) {
+            List<DeferredBlock<Block>> blockList = new ArrayList<>();
+            ids.forEach(id -> {
                 DeferredBlock<Block> BLOCK;
 
-                BLOCK = switch (StructureType.valueOf(data.StructureType)) {
+                BLOCK = switch (StructureType.valueOf(template.StructureType)) {
                     case NORMAL_STRUCTURE -> {
-                        ShapeData shapeData =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath, ShapeData.class).getData();
-                        yield BLOCKS.register(data.ID, () ->
-                                new NormalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData));
+                        BlockShapeData shapeData =
+                                new FileDataGetter<>(template.getModelPath(id), BlockShapeData.class).getData();
+                        yield BLOCKS.register(id, NormalStructure.Factory(Common.createBlockPropertiesOfMaterial(template, id), shapeData, LoadMethod.valueOf(template.loadMethod)));
                     }
                     case HORIZONTAL_DIRECTIONAL_STRUCTURE -> {
-                        ShapeData shapeData =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath, ShapeData.class).getData();
-                        yield BLOCKS.register(data.ID, () ->
-                                new HorizontalDirectionalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData));
+                        BlockShapeData shapeData =
+                                new FileDataGetter<>(template.getModelPath(id), BlockShapeData.class).getData();
+                        yield BLOCKS.register(id, HorizontalDirectionalStructure.Factory(Common.createBlockPropertiesOfMaterial(template, id), shapeData, LoadMethod.valueOf(template.loadMethod)));
                     }
                     case HORIZONTAL_MULTIPLE_DIRECTIONAL_STRUCTURE -> {
-                        ShapeData shapeData0 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath0, ShapeData.class).getData();
-                        ShapeData shapeData15 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath15, ShapeData.class).getData();
-                        ShapeData shapeData30 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath30, ShapeData.class).getData();
-                        ShapeData shapeData45 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath45, ShapeData.class).getData();
-                        ShapeData shapeData60 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath60, ShapeData.class).getData();
-                        ShapeData shapeData75 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.modelPath75, ShapeData.class).getData();
-                        yield BLOCKS.register(data.ID, () ->
-                                new HorizontalMultipleDirectionalStructure(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod))
-                                        .setSHAPE(shapeData0, shapeData15, shapeData30, shapeData45, shapeData60, shapeData75));
+                        ArrayList<BlockShapeData> shapeDatas = new ArrayList<>(0);
+                        for (int i = 0; i < 6; i++) {
+                            shapeDatas.add(new FileDataGetter<>(template.getModelPath(id, String.valueOf(i)), BlockShapeData.class).getData());
+                        }
+                        yield BLOCKS.register(id, HorizontalMultipleDirectionalStructure.Factory(Common.createBlockPropertiesOfMaterial(template, id), shapeDatas, LoadMethod.valueOf(template.loadMethod))
+                        );
                     }
-                    case NORMAL_HALF_SLAB -> BLOCKS.register(data.ID, () ->
-                            new NormalHalfSlab(data.createBlockProperties()).setCanBeDouble(data.double_enable));
-                    case HORIZONTAL_DIRECTIONAL_HALF_SLAB -> BLOCKS.register(data.ID, () ->
-                            new HorizontalDirectionalHalfSlab(data.createBlockProperties()).setCanBeDouble(data.double_enable));
+                    case NORMAL_HALF_SLAB -> BLOCKS.register(id, NormalHalfSlab.Factory(Common.createBlockPropertiesOfMaterial(template, id), template.double_enable));
+                    case HORIZONTAL_DIRECTIONAL_HALF_SLAB -> BLOCKS.register(id, HorizontalDirectionalHalfSlab.Factory(Common.createBlockPropertiesOfMaterial(template, id), template.double_enable));
                     case DOOR_AND_WINDOW -> {
-                        ShapeData shapeData1 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.open_modelPath, ShapeData.class).getData();
-                        ShapeData shapeData2 =
-                                new FileDataGetter<>(Reference.PATH.get(Reference.PathType.MODEL) + data.close_modelPath, ShapeData.class).getData();
-                        yield BLOCKS.register(data.ID, () ->
-                                new DoorAndWindow(data.createBlockProperties(), LoadMethod.valueOf(data.loadMethod)).setShape(shapeData1, shapeData2));
+                        BlockShapeData shapeData_open =
+                                new FileDataGetter<>(template.getModelPath(id, "open"), BlockShapeData.class).getData();
+                        BlockShapeData shapeData_close =
+                                new FileDataGetter<>(template.getModelPath(id, "close"), BlockShapeData.class).getData();
+                        yield BLOCKS.register(id, DoorAndWindow.Factory(Common.createBlockPropertiesOfMaterial(template, id), shapeData_open, shapeData_close, LoadMethod.valueOf(template.loadMethod)));
                     }
                 };
 
                 blockList.add(BLOCK);
-                IDMap.put(BLOCK, data.ID);
+                BlockIdMap.put(BLOCK, id);
                 LOGGER.info("Registered Block: {}", BLOCK.getId());
-            }
+            });
+            return blockList;
         }
     }
 }

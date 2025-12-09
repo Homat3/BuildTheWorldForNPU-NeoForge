@@ -22,7 +22,7 @@ public class FolderDataGetter<T> {
 
 
     public FolderDataGetter(String dataPathFolder, Class<T> tClass) {
-        this.dataPath = Reference.PATH.get(Reference.PathType.LOADER) + dataPathFolder;
+        this.dataPath = dataPathFolder;
         this.tClass = tClass;
         data = new ArrayList<>(0);
 

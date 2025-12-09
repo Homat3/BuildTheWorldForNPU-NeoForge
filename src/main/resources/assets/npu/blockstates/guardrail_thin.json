@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "npu:block/fence/guardrail_thin"
-    }
-  }
-}

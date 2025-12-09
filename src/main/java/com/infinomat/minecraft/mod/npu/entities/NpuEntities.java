@@ -28,7 +28,7 @@ import java.util.Map;
 import java.util.function.Supplier;
 
 public class NpuEntities {
-    public static final DeferredRegister.Entities ENTITY_TYPES = DeferredRegister.createEntities(Reference.MODID);
+    public static final DeferredRegister.Entities ENTITY_TYPES = DeferredRegister.createEntities(Reference.MOD_ID);
     public static final Map<String, Supplier<? extends EntityType<? extends Mob>>> MOB_ID_MAP = new HashMap<>(0);
     public static final Map<String, Supplier<? extends EntityType<? extends NpuVehicle>>> VEHICLE_ID_MAP = new HashMap<>(0);
 
@@ -50,7 +50,7 @@ public class NpuEntities {
             ENTITY_TYPES.register(GOLDEN_CHICKEN_ID, () ->
                     EntityType.Builder.of(GoldenChicken::new, MobCategory.CREATURE)
                             .sized(1.0F, 1.0F)
-                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, GOLDEN_CHICKEN_ID))));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, GOLDEN_CHICKEN_ID))));
 
     public static final Supplier<EntityType<SchoolBus>> SCHOOL_BUS =
             ENTITY_TYPES.register(SCHOOL_BUS_ID, () ->
@@ -58,7 +58,7 @@ public class NpuEntities {
                             .sized(6.0F, 5.0F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, SCHOOL_BUS_ID))));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, SCHOOL_BUS_ID))));
 
     public static final Supplier<EntityType<Bike1>> BIKE1 =
             ENTITY_TYPES.register(BIKE1_ID, () ->
@@ -66,7 +66,7 @@ public class NpuEntities {
                             .sized(1.0F, 1.2F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE1_ID))));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, BIKE1_ID))));
 
     public static final Supplier<EntityType<Bike2>> BIKE2 =
             ENTITY_TYPES.register(BIKE2_ID, () ->
@@ -74,7 +74,7 @@ public class NpuEntities {
                             .sized(1.0F, 1.2F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE2_ID))));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, BIKE2_ID))));
 
     public static final Supplier<EntityType<Bike3>> BIKE3 =
             ENTITY_TYPES.register(BIKE3_ID, () ->
@@ -82,10 +82,10 @@ public class NpuEntities {
                             .sized(1.0F, 1.2F)
                             .fireImmune()
                             .canSpawnFarFromPlayer()
-                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MODID, BIKE3_ID))));
+                            .build(ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, BIKE3_ID))));
 
     static {
-        MOB_ID_MAP.put(GOLDEN_CHICKEN_ID, GOLDEN_CHICKEN);
+        MOB_ID_MAP.put(GOLDEN_CHICKEN_ID + "_spawn_egg", GOLDEN_CHICKEN);
         VEHICLE_ID_MAP.put(SCHOOL_BUS_ID, SCHOOL_BUS);
         VEHICLE_ID_MAP.put(BIKE1_ID, BIKE1);
         VEHICLE_ID_MAP.put(BIKE2_ID, BIKE2);

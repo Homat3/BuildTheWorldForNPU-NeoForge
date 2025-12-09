@@ -1,0 +1,10 @@
+{
+  "StructureType": "NORMAL_STRUCTURE",
+  "loadMethod": "ROUGH",
+  "Material": "IRON",
+  "noOcclusion": false,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "id": "normal_rough_iron_occlusion"
+}
