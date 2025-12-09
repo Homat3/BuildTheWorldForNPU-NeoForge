@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/skewer_hotpot_cart"
+    "model": "npu:block/s/skewer_hotpot_cart"
   }
 }

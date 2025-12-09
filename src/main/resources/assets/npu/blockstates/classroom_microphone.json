@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/classroom_microphone"
+      "model": "npu:block/c/classroom_microphone"
     },
     "facing=east": {
-      "model": "npu:block/structure/classroom_microphone",
+      "model": "npu:block/c/classroom_microphone",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/classroom_microphone",
+      "model": "npu:block/c/classroom_microphone",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/classroom_microphone",
+      "model": "npu:block/c/classroom_microphone",
       "y": 270,
       "uvlock": false
     }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/indoor_staircase_45_degree_angle"
+    "model": "npu:block/i/indoor_staircase_45_degree_angle"
   }
 }

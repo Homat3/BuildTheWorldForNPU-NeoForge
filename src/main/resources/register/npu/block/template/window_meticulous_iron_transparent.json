@@ -1,0 +1,11 @@
+{
+  "StructureType": "DOOR_AND_WINDOW",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "render": "transparent",
+  "id": "window_meticulous_iron_transparent"
+}

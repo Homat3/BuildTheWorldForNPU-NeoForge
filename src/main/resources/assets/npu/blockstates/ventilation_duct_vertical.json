@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/ventilation_duct_vertical"
+      "model": "npu:block/v/ventilation_duct_vertical"
     },
     "facing=east": {
-      "model": "npu:block/structure/ventilation_duct_vertical",
+      "model": "npu:block/v/ventilation_duct_vertical",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/ventilation_duct_vertical",
+      "model": "npu:block/v/ventilation_duct_vertical",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/ventilation_duct_vertical",
+      "model": "npu:block/v/ventilation_duct_vertical",
       "y": 270,
       "uvlock": false
     }

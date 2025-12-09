@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/table/trapezoid_table"
+      "model": "npu:block/t/trapezoid_table"
     },
     "facing=east": {
-      "model": "npu:block/table/trapezoid_table",
+      "model": "npu:block/t/trapezoid_table",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/table/trapezoid_table",
+      "model": "npu:block/t/trapezoid_table",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/table/trapezoid_table",
+      "model": "npu:block/t/trapezoid_table",
       "y": 270,
       "uvlock": false
     }

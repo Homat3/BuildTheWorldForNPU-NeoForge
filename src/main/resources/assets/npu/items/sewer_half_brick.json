@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/brick/sewer_half_brick"
+    "model": "npu:block/s/sewer_half_brick"
   }
 }

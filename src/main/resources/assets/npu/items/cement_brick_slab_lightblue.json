@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/brick/cement_brick_slab_lightblue"
+    "model": "npu:block/c/cement_brick_slab_lightblue"
   }
 }

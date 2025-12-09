@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/road/sign_slow_moving_2"
+      "model": "npu:block/s/sign_slow_moving_2"
     },
     "facing=east": {
-      "model": "npu:block/road/sign_slow_moving_2",
+      "model": "npu:block/s/sign_slow_moving_2",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/road/sign_slow_moving_2",
+      "model": "npu:block/s/sign_slow_moving_2",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/road/sign_slow_moving_2",
+      "model": "npu:block/s/sign_slow_moving_2",
       "y": 270,
       "uvlock": false
     }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/decoration/bulletin_board"
+      "model": "npu:block/b/bulletin_board"
     },
     "facing=east": {
-      "model": "npu:block/decoration/bulletin_board",
+      "model": "npu:block/b/bulletin_board",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/decoration/bulletin_board",
+      "model": "npu:block/b/bulletin_board",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/decoration/bulletin_board",
+      "model": "npu:block/b/bulletin_board",
       "y": 270,
       "uvlock": false
     }

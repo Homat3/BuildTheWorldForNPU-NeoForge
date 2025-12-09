@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/yunf_toilet_door_right"
+    "model": "npu:block/y/yunf_toilet_door_right"
   }
 }

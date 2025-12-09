@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/toilet_cloud_f_right"
+      "model": "npu:block/t/toilet_cloud_f_right"
     },
     "facing=east": {
-      "model": "npu:block/structure/toilet_cloud_f_right",
+      "model": "npu:block/t/toilet_cloud_f_right",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/toilet_cloud_f_right",
+      "model": "npu:block/t/toilet_cloud_f_right",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/toilet_cloud_f_right",
+      "model": "npu:block/t/toilet_cloud_f_right",
       "y": 270,
       "uvlock": false
     }

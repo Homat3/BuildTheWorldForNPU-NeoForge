@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/fence/guardrail_thick"
+      "model": "npu:block/g/guardrail_thick"
     }
   }
 }

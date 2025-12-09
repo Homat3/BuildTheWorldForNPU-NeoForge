@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/staircase_tiles_classroom_medium"
+    "model": "npu:block/s/staircase_tiles_classroom_medium"
   }
 }

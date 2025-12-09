@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/railing/railing_half_double"
+    "model": "npu:block/r/railing_half_double"
   }
 }

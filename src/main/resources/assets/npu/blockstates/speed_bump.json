@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/road/speed_bump"
+      "model": "npu:block/s/speed_bump"
     },
     "facing=east": {
-      "model": "npu:block/road/speed_bump",
+      "model": "npu:block/s/speed_bump",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/road/speed_bump",
+      "model": "npu:block/s/speed_bump",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/road/speed_bump",
+      "model": "npu:block/s/speed_bump",
       "y": 270,
       "uvlock": false
     }

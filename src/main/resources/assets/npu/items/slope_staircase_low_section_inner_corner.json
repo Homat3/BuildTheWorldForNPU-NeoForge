@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/slope_staircase_low_section_inner_corner"
+    "model": "npu:block/s/slope_staircase_low_section_inner_corner"
   }
 }

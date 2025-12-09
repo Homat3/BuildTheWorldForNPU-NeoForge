@@ -1,10 +1,11 @@
 package com.infinomat.minecraft.mod.npu.blocks.npublocknewclasses;
 
+import com.infinomat.minecraft.mod.npu.blocks.NpuBlocks;
+import com.infinomat.minecraft.mod.npu.blocks.npublocknewclasses.common.LoadShape;
+import com.infinomat.minecraft.mod.npu.util.register.data.template.BlockShapeData;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import com.infinomat.minecraft.mod.npu.blocks.NpuBlocks;
-import com.infinomat.minecraft.mod.npu.blocks.dataofnpublocks.ShapeData;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -16,7 +17,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.gameevent.GameEvent;
-import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -26,8 +26,9 @@ import org.jetbrains.annotations.NotNull;
 import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Supplier;
 
-public class HorizontalMultipleDirectionalStructure extends Block {
+public class HorizontalMultipleDirectionalStructure extends Block implements LoadShape {
     // 额外属性
     private static final MapCodec<HorizontalMultipleDirectionalStructure> CODEC = RecordCodecBuilder.mapCodec(instance ->
             instance.group(
@@ -36,57 +37,44 @@ public class HorizontalMultipleDirectionalStructure extends Block {
                     Codec.INT.fieldOf("angle").forGetter(p -> p.angle)
             ).apply(instance, HorizontalMultipleDirectionalStructure::new)
     );
-    public static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 11);
-    public NpuBlocks.LoadMethod loadMethod;
+    protected static final IntegerProperty ANGEL = IntegerProperty.create("angle", 0, 11);
+    protected final NpuBlocks.LoadMethod loadMethod;
     protected VoxelShape shape;
     protected int angle;
     // 体积映射
-    private final ArrayList<VoxelShape> angleShapeList0;
-    private final ArrayList<VoxelShape> angleShapeList15;
-    private final ArrayList<VoxelShape> angleShapeList30;
-    private final ArrayList<VoxelShape> angleShapeList45;
-    private final ArrayList<VoxelShape> angleShapeList60;
-    private final ArrayList<VoxelShape> angleShapeList75;
+    private final List<List<VoxelShape>> angleShapeList;
+
+
     @Override
     protected @NotNull MapCodec<? extends HorizontalMultipleDirectionalStructure> codec() {
         return CODEC;
     }
 
     // 构造
-    public HorizontalMultipleDirectionalStructure(Properties properties, NpuBlocks.LoadMethod loadMethod) {
+    public HorizontalMultipleDirectionalStructure(Properties properties, List<List<VoxelShape>> shapeList, NpuBlocks.LoadMethod loadMethod) {
         super(properties);
-        this.angleShapeList0 = new ArrayList<>(0);
-        this.angleShapeList15 = new ArrayList<>(0);
-        this.angleShapeList30 = new ArrayList<>(0);
-        this.angleShapeList45 = new ArrayList<>(0);
-        this.angleShapeList60 = new ArrayList<>(0);
-        this.angleShapeList75 = new ArrayList<>(0);
+        this.angleShapeList = shapeList;
         this.shape = null;
         this.loadMethod = loadMethod;
         this.angle = 0;
     }
     private HorizontalMultipleDirectionalStructure(Properties properties, String loadMethod, int angle) {
         super(properties);
-        this.angleShapeList0 = new ArrayList<>(0);
-        this.angleShapeList15 = new ArrayList<>(0);
-        this.angleShapeList30 = new ArrayList<>(0);
-        this.angleShapeList45 = new ArrayList<>(0);
-        this.angleShapeList60 = new ArrayList<>(0);
-        this.angleShapeList75 = new ArrayList<>(0);
+        this.angleShapeList = new ArrayList<>(0);
         this.shape = null;
         this.loadMethod = NpuBlocks.LoadMethod.valueOf(loadMethod);
         this.angle = angle;
     }
-    // 与构造并用
-    public HorizontalMultipleDirectionalStructure setSHAPE(ShapeData shapeData0, ShapeData shapeData15, ShapeData shapeData30,
-                                                           ShapeData shapeData45, ShapeData shapeData60, ShapeData shapeData75) {
-        loadShape(shapeData0, angleShapeList0);
-        loadShape(shapeData15, angleShapeList15);
-        loadShape(shapeData30, angleShapeList30);
-        loadShape(shapeData45, angleShapeList45);
-        loadShape(shapeData60, angleShapeList60);
-        loadShape(shapeData75, angleShapeList75);
-        return this;
+
+    public static Supplier<HorizontalMultipleDirectionalStructure> Factory(Properties properties, ArrayList<BlockShapeData> shapeDatas, NpuBlocks.LoadMethod loadMethod) {
+        final List<List<VoxelShape>> shapeLists = new ArrayList<>(6);
+        shapeDatas.forEach(shapeData -> {
+            if (!shapeData.loaderIsObj()) for (List<Double> shape : shapeData.getShapeList()) {
+                shapeLists.get(shapeDatas.indexOf(shapeData))
+                        .add(Shapes.box(shape.get(0), shape.get(1), shape.get(2), shape.get(3), shape.get(4), shape.get(5)));
+            }
+        });
+        return () -> new HorizontalMultipleDirectionalStructure(properties, shapeLists, loadMethod);
     }
 
     // 额外属性注册
@@ -110,7 +98,7 @@ public class HorizontalMultipleDirectionalStructure extends Block {
     public @NotNull VoxelShape getShape(@NotNull BlockState pState, @NotNull BlockGetter pGetter, @NotNull BlockPos pPos, @NotNull CollisionContext pContext) {
         if (shape == null || angle != pState.getValue(ANGEL)) {
             angle = pState.getValue(ANGEL);
-            loadShape();
+            shape = loadShape(angleShapeList.get(angle % 6), loadMethod);
         }
         return shape.optimize();
     }
@@ -123,49 +111,5 @@ public class HorizontalMultipleDirectionalStructure extends Block {
         level.setBlock(pos, state, 10);
         level.gameEvent(player, GameEvent.BLOCK_CHANGE, pos);
         return InteractionResult.SUCCESS;
-    }
-
-    // 辅助函数
-    // 旋转坐标变化
-    public VoxelShape getShapeByAngle(VoxelShape shape, int angle) {
-        if (angle < 6) return shape;
-        else return Shapes.box(shape.bounds().minZ, shape.bounds().minY, 1 - shape.bounds().maxX,
-                shape.bounds().maxZ, shape.bounds().maxY, 1 - shape.bounds().minX);
-    }
-    // 根据loadMethod加载形状
-    private void loadShape(ShapeData shapeData, ArrayList<VoxelShape> angleShapeList) {
-        if (!shapeData.loaderIsObj()) for (List<Double> shape : shapeData.getShapeList()) {
-            angleShapeList.add(Shapes.box(shape.get(0), shape.get(1), shape.get(2), shape.get(3), shape.get(4), shape.get(5)));
-        }
-    }
-    private void loadShape() {
-        ArrayList<VoxelShape> shapeList = switch (angle) {
-            case 1 -> angleShapeList15;
-            case 2 -> angleShapeList30;
-            case 3 -> angleShapeList45;
-            case 4 -> angleShapeList60;
-            case 5 -> angleShapeList75;
-            default -> angleShapeList0;
-        };
-        shape = NpuBlocks.EmunShape.HALF_SHPAE_BOTTOM.getShape();
-        if (!shapeList.isEmpty()) switch (loadMethod) {
-            case METICULOUS:
-                shape = NpuBlocks.EmunShape.NULL_SHPAE.getShape();
-                for (VoxelShape voxelShape : shapeList) {
-                    shape = Shapes.or(shape, getShapeByAngle(voxelShape, angle));
-                }
-                break;
-            case ROUGH:
-                shape = shapeList.getFirst();
-                for (VoxelShape voxelShape : shapeList) {
-                    AABB a = shape.bounds();
-                    AABB b = voxelShape.bounds();
-                    shape = Shapes.box(
-                            Math.min(a.minX, b.minX), Math.min(a.minY, b.minY), Math.min(a.minZ, b.minZ),
-                            Math.max(a.maxX, b.maxX), Math.max(a.maxY, b.maxY), Math.max(a.maxZ, b.maxZ));
-                }
-                shape = getShapeByAngle(shape, angle);
-                break;
-        }
     }
 }

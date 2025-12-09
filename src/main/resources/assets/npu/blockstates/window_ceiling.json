@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/window/window_ceiling"
+      "model": "npu:block/w/window_ceiling"
     }
   }
 }

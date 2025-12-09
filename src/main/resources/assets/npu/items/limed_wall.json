@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/wall/limed_wall"
+    "model": "npu:block/l/limed_wall"
   }
 }

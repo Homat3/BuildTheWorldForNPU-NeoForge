@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/road/sign_slow_moving_2"
+    "model": "npu:block/s/sign_slow_moving_2"
   }
 }

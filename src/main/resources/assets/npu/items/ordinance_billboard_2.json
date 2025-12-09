@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/sign/ordinance_billboard_2"
+    "model": "npu:block/o/ordinance_billboard_2"
   }
 }

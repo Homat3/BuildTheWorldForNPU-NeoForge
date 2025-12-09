@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/stove_2_4"
+    "model": "npu:block/s/stove_2_4"
   }
 }

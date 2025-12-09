@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/fence/fence_warningline/fence_warningline_column"
+      "model": "npu:block/f/fence_warningline_column"
     },
     "facing=east": {
-      "model": "npu:block/fence/fence_warningline/fence_warningline_column",
+      "model": "npu:block/f/fence_warningline_column",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/fence/fence_warningline/fence_warningline_column",
+      "model": "npu:block/f/fence_warningline_column",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/fence/fence_warningline/fence_warningline_column",
+      "model": "npu:block/f/fence_warningline_column",
       "y": 270,
       "uvlock": false
     }

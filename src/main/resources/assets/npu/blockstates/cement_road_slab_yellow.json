@@ -1,15 +1,15 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "npu:block/road/cement_road_slab_yellow"
+      "model": "npu:block/c/cement_road_slab_yellow"
     },
     "type=top": {
-      "model": "npu:block/road/cement_road_slab_yellow",
+      "model": "npu:block/c/cement_road_slab_yellow",
       "x": 180,
       "uvlock": false
     },
     "type=double": {
-      "model": "npu:block/road/cement_road_yellow",
+      "model": "npu:block/c/cement_road_yellow",
       "x": 180,
       "uvlock": false
     }

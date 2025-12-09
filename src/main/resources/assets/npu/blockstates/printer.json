@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/printer"
+      "model": "npu:block/p/printer"
     },
     "facing=east": {
-      "model": "npu:block/structure/printer",
+      "model": "npu:block/p/printer",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/printer",
+      "model": "npu:block/p/printer",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/printer",
+      "model": "npu:block/p/printer",
       "y": 270,
       "uvlock": false
     }

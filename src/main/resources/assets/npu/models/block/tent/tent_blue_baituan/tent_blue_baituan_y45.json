@@ -1,8 +1,0 @@
-{
-  "textures": {
-    "0": "npu:block/t/tent_blue_baituan",
-    "particle": "npu:block/t/tent_blue"
-  },
-  "model": "npu:models/block/tent/tent_blue_baituan/tent_blue_baituan_y45.obj",
-  "loader": "neoforge:obj"
-}

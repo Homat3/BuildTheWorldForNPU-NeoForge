@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/fire_cabinet"
+    "model": "npu:block/f/fire_cabinet"
   }
 }

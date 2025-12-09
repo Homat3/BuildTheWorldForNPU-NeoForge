@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/cafeteria_bar_beverage"
+      "model": "npu:block/c/cafeteria_bar_beverage"
     },
     "facing=east": {
-      "model": "npu:block/structure/cafeteria_bar_beverage",
+      "model": "npu:block/c/cafeteria_bar_beverage",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/cafeteria_bar_beverage",
+      "model": "npu:block/c/cafeteria_bar_beverage",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/cafeteria_bar_beverage",
+      "model": "npu:block/c/cafeteria_bar_beverage",
       "y": 270,
       "uvlock": false
     }

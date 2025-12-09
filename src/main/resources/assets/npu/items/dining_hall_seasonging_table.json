@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/table/dining_hall_seasonging_table"
+    "model": "npu:block/d/dining_hall_seasonging_table"
   }
 }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/desk_foldable_covid19"
+      "model": "npu:block/d/desk_foldable_covid19"
     },
     "facing=east": {
-      "model": "npu:block/structure/desk_foldable_covid19",
+      "model": "npu:block/d/desk_foldable_covid19",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/desk_foldable_covid19",
+      "model": "npu:block/d/desk_foldable_covid19",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/desk_foldable_covid19",
+      "model": "npu:block/d/desk_foldable_covid19",
       "y": 270,
       "uvlock": false
     }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/fence/fenceo_post"
+    "model": "npu:block/f/fenceo_post"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/dormitory_fan"
+    "model": "npu:block/d/dormitory_fan"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/stool_stone_small_45"
+    "model": "npu:block/s/stool_stone_small_45"
   }
 }

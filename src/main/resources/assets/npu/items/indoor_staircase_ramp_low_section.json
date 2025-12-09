@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/indoor_staircase_ramp_low_section"
+    "model": "npu:block/i/indoor_staircase_ramp_low_section"
   }
 }

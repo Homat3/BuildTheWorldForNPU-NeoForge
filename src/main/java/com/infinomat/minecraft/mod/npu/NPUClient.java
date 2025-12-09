@@ -1,7 +1,7 @@
 package com.infinomat.minecraft.mod.npu;
 
-import com.mojang.logging.LogUtils;
 import com.infinomat.minecraft.mod.npu.util.Reference;
+import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -14,9 +14,9 @@ import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 import org.slf4j.Logger;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = Reference.MODID, dist = Dist.CLIENT)
+@Mod(value = Reference.MOD_ID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = Reference.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = Reference.MOD_ID, value = Dist.CLIENT)
 public class NPUClient {
     private static final Logger LOGGER = LogUtils.getLogger();
 

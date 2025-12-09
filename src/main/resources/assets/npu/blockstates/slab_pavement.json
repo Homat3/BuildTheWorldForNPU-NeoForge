@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/road/slab_pavement"
+      "model": "npu:block/s/slab_pavement"
     }
   }
 }

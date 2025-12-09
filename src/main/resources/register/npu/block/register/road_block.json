@@ -1,0 +1,109 @@
+{
+  "id": "road_block",
+  "group": [
+    {
+      "template": "horizontal_half_iron_double",
+      "items": [
+        "boardwalk_slab",
+        "cement_road_slab_stripe_1",
+        "cement_road_slab_stripe_2"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "boardwalk",
+        "cement_road_stripe_1",
+        "cement_road_stripe_2",
+        "road_marking_arrow1",
+        "road_marking_arrow2",
+        "road_marking_arrow_diagonal_left",
+        "road_marking_arrow_diagonal_right",
+        "road_marking_arrow_left",
+        "road_marking_arrow_right",
+        "road_marking_arrow_shaft_middle",
+        "road_marking_arrow_shaft_sidelined",
+        "road_marking_arrow_straight",
+        "road_marking_arrow_straight_eccentric",
+        "road_marking_edge",
+        "road_marking_middle",
+        "road_marking_middle_white_yellow",
+        "road_marking_sidelined",
+        "road_marking_sidewalk",
+        "road_marking_turning1",
+        "road_marking_turning2",
+        "road_marking_turning3",
+        "road_marking_turning3_yellow",
+        "straight_ahead_sign"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "large_street_lamp_cap",
+        "large_street_lamp_loudspeaker",
+        "large_street_lamp_top"
+      ]
+    },
+    {
+      "template": "normal_rough_iron",
+      "items": [
+        "blue_brick"
+      ]
+    },
+    {
+      "template": "normal_rough_rock",
+      "items": [
+        "brick_pavement",
+        "cement_road",
+        "cement_road_yellow",
+        "slab_pavement"
+      ]
+    },
+    {
+      "template": "normal_rough_iron_occlusion",
+      "items": [
+        "large_street_lamp_base",
+        "large_street_lamp_pole"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "cement_road_with_curb",
+        "cement_road_with_curb_black",
+        "cement_road_with_curb_grey"
+      ]
+    },
+    {
+      "template": "normal_half_iron_double",
+      "items": [
+        "blue_brick_slab"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "line_road_corner_1_yellow",
+        "line_road_corner_2_yellow",
+        "line_road_corner_3_yellow",
+        "line_road_middle_white",
+        "line_road_middle_yellow",
+        "line_road_off_center_yellow",
+        "line_road_side_yellow",
+        "speed_bump",
+        "speed_bump_edge",
+        "street_lamp_head",
+        "street_lamp_holder",
+        "street_lamp_pole"
+      ]
+    },
+    {
+      "template": "normal_half_rock_double",
+      "items": [
+        "cement_road_slab",
+        "cement_road_slab_yellow"
+      ]
+    }
+  ]
+}

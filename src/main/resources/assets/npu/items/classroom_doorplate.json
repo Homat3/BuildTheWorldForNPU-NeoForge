@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/classroom_doorplate"
+    "model": "npu:block/c/classroom_doorplate"
   }
 }

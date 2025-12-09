@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/wall/portable_dwellings_wall"
+    "model": "npu:block/p/portable_dwellings_wall"
   }
 }

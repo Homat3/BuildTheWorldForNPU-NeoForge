@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/park_bench"
+      "model": "npu:block/p/park_bench"
     },
     "facing=east": {
-      "model": "npu:block/structure/park_bench",
+      "model": "npu:block/p/park_bench",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/park_bench",
+      "model": "npu:block/p/park_bench",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/park_bench",
+      "model": "npu:block/p/park_bench",
       "y": 270,
       "uvlock": false
     }

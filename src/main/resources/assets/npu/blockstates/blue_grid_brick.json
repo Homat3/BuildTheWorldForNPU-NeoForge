@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/brick/blue_grid_brick"
+      "model": "npu:block/b/blue_grid_brick"
     }
   }
 }

@@ -1,0 +1,11 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_STRUCTURE",
+  "loadMethod": "METICULOUS",
+  "Material": "IRON",
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "customModel": true,
+  "id": "horizontal_meticulous_iron_model"
+}

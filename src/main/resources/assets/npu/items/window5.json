@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/window/normal/window5"
+    "model": "npu:block/w/window5"
   }
 }

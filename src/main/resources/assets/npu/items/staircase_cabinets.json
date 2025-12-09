@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/staircase_cabinets"
+    "model": "npu:block/s/staircase_cabinets"
   }
 }

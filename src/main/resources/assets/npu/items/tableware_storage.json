@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/tableware_storage"
+    "model": "npu:block/t/tableware_storage"
   }
 }

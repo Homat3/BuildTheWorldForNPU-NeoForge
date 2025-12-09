@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/road/pedestrian_road_pattern_brick_white"
+      "model": "npu:block/p/pedestrian_road_pattern_brick_white"
     },
     "facing=east": {
-      "model": "npu:block/road/pedestrian_road_pattern_brick_white",
+      "model": "npu:block/p/pedestrian_road_pattern_brick_white",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/road/pedestrian_road_pattern_brick_white",
+      "model": "npu:block/p/pedestrian_road_pattern_brick_white",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/road/pedestrian_road_pattern_brick_white",
+      "model": "npu:block/p/pedestrian_road_pattern_brick_white",
       "y": 270,
       "uvlock": false
     }

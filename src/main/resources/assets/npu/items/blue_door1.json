@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/window/blue/blue_door1_close"
+    "model": "npu:block/b/blue_door1_close"
   }
 }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/playground/playground_door_closed"
+      "model": "npu:block/p/playground_door_closed"
     },
     "facing=east": {
-      "model": "npu:block/playground/playground_door_closed",
+      "model": "npu:block/p/playground_door_closed",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/playground/playground_door_closed",
+      "model": "npu:block/p/playground_door_closed",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/playground/playground_door_closed",
+      "model": "npu:block/p/playground_door_closed",
       "y": 270,
       "uvlock": false
     }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/bathroom_single"
+    "model": "npu:block/b/bathroom_single"
   }
 }

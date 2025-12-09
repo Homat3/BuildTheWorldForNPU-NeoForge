@@ -1,0 +1,85 @@
+{
+  "id": "area_block",
+  "group": [
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "fence_balcony_cloud_f_left",
+        "fence_balcony_cloud_f_right",
+        "roadblock_double1"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_model",
+      "items": [
+        "fenceo_side"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "balcony_partition_down",
+        "balcony_partition_up",
+        "fence1",
+        "fence2",
+        "fence3",
+        "fence4",
+        "fence5",
+        "fence6",
+        "fence7",
+        "fence_warningline_column",
+        "fence_warningline_column_double180",
+        "fence_warningline_column_double90",
+        "fence_warningline_column_single",
+        "fence_warningline_column_triple",
+        "guardrail_thick_with_base",
+        "guardrail_thin_with_electric_box",
+        "railing",
+        "railing1",
+        "railing2",
+        "railing3",
+        "railing4",
+        "railing5",
+        "railing_half",
+        "railing_half_corner",
+        "railing_half_double",
+        "roadblock_double2"
+      ]
+    },
+    {
+      "template": "normal_rough_rock",
+      "items": [
+        "roadblock"
+      ]
+    },
+    {
+      "template": "normal_meticulous_rock",
+      "items": [
+        "guardrail_thin"
+      ]
+    },
+    {
+      "template": "normal_meticulous_iron_model",
+      "items": [
+        "fenceo_post"
+      ]
+    },
+    {
+      "template": "normal_meticulous_iron",
+      "items": [
+        "guardrail_thick"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "brailing",
+        "fence10",
+        "fence11",
+        "fence8",
+        "fence9",
+        "fence_warningline"
+      ]
+    }
+  ]
+}

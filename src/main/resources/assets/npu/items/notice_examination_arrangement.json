@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/notice_examination_arrangement"
+    "model": "npu:item/n/notice_examination_arrangement"
   }
 }

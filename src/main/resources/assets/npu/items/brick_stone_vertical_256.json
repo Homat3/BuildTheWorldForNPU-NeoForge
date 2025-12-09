@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/brick/brick_stone_vertical_256"
+    "model": "npu:block/b/brick_stone_vertical_256"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/playground/playground_plastic_green"
+      "model": "npu:block/p/playground_plastic_green"
     }
   }
 }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/stair_cement_up_lightblue"
+      "model": "npu:block/s/stair_cement_up_lightblue"
     },
     "facing=east": {
-      "model": "npu:block/structure/stair_cement_up_lightblue",
+      "model": "npu:block/s/stair_cement_up_lightblue",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/stair_cement_up_lightblue",
+      "model": "npu:block/s/stair_cement_up_lightblue",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/stair_cement_up_lightblue",
+      "model": "npu:block/s/stair_cement_up_lightblue",
       "y": 270,
       "uvlock": false
     }

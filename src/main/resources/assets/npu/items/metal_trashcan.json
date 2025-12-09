@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/metal_trashcan"
+    "model": "npu:block/m/metal_trashcan"
   }
 }

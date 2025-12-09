@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/metal_table1x1"
+    "model": "npu:block/m/metal_table1x1"
   }
 }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/wooden_desk"
+      "model": "npu:block/w/wooden_desk"
     },
     "facing=east": {
-      "model": "npu:block/structure/wooden_desk",
+      "model": "npu:block/w/wooden_desk",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/wooden_desk",
+      "model": "npu:block/w/wooden_desk",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/wooden_desk",
+      "model": "npu:block/w/wooden_desk",
       "y": 270,
       "uvlock": false
     }

@@ -1,0 +1,26 @@
+{
+  "id": "model_block",
+  "group": [
+    {
+      "template": "horizontal_rough_iron",
+      "items": [
+        "atlas",
+        "gun_barrel",
+        "gun_body"
+      ]
+    },
+    {
+      "template": "normal_rough_iron",
+      "items": [
+        "small_stone_pavilion"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "fox",
+        "knight"
+      ]
+    }
+  ]
+}

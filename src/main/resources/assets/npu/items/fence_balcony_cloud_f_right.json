@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/fence/fence_balcony_cloud_f_right"
+    "model": "npu:block/f/fence_balcony_cloud_f_right"
   }
 }

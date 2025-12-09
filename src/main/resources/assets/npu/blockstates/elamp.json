@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/elamp"
+      "model": "npu:block/e/elamp"
     },
     "facing=east": {
-      "model": "npu:block/structure/elamp",
+      "model": "npu:block/e/elamp",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/elamp",
+      "model": "npu:block/e/elamp",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/elamp",
+      "model": "npu:block/e/elamp",
       "y": 270,
       "uvlock": false
     }

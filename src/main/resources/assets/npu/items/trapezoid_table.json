@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/table/trapezoid_table"
+    "model": "npu:block/t/trapezoid_table"
   }
 }

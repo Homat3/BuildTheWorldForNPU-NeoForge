@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/floor/marble_tiles"
+      "model": "npu:block/m/marble_tiles"
     }
   }
 }

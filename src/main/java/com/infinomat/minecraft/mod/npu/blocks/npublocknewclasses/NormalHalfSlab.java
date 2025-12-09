@@ -15,6 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
 import java.util.Objects;
+import java.util.function.Supplier;
 
 public class NormalHalfSlab extends SlabBlock {
     // 额外属性
@@ -31,18 +32,12 @@ public class NormalHalfSlab extends SlabBlock {
     }
 
     // 构造
-    public NormalHalfSlab(Properties properties) {
-        super(properties);
-        this.canBeDouble = true;
-    }
     private NormalHalfSlab(Properties properties, boolean canBeDouble) {
         super(properties);
         this.canBeDouble = canBeDouble;
     }
-    // 与构造并用
-    public NormalHalfSlab setCanBeDouble(boolean canBeDouble) {
-        this.canBeDouble = canBeDouble;
-        return this;
+    public static Supplier<SlabBlock> Factory(Properties properties, boolean canBeDouble) {
+        return () -> new NormalHalfSlab(properties, canBeDouble);
     }
 
     // 放置时状态

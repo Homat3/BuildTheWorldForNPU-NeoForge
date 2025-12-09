@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/flat_ceiling_light_whole"
+    "model": "npu:block/f/flat_ceiling_light_whole"
   }
 }

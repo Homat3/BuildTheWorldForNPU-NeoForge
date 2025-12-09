@@ -7,9 +7,9 @@ import software.bernie.geckolib.renderer.base.GeoRenderState;
 
 
 public class SchoolBusModel extends GeoModel<SchoolBus> {
-    private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "school_bus");
-    private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "school_bus");
-    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "textures/entity/s/school_bus.png");
+    private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "school_bus");
+    private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "school_bus");
+    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "textures/entity/s/school_bus.png");
 
     @Override
     public ResourceLocation getModelResource(GeoRenderState geoRenderState) {

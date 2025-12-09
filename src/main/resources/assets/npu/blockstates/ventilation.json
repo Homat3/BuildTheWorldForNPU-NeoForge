@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/ventilation"
+      "model": "npu:block/v/ventilation"
     },
     "facing=east": {
-      "model": "npu:block/structure/ventilation",
+      "model": "npu:block/v/ventilation",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/ventilation",
+      "model": "npu:block/v/ventilation",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/ventilation",
+      "model": "npu:block/v/ventilation",
       "y": 270,
       "uvlock": false
     }

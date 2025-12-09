@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/admission_letter_2021"
+    "model": "npu:block/a/admission_letter_2021"
   }
 }

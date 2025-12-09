@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/sign/safety_exit_sign"
+    "model": "npu:block/s/safety_exit_sign"
   }
 }

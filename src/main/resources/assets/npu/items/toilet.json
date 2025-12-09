@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/toilet/toilet"
+    "model": "npu:block/t/toilet"
   }
 }

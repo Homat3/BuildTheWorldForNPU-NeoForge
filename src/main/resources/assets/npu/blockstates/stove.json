@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/decoration/stove"
+      "model": "npu:block/s/stove"
     },
     "facing=east": {
-      "model": "npu:block/decoration/stove",
+      "model": "npu:block/s/stove",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/decoration/stove",
+      "model": "npu:block/s/stove",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/decoration/stove",
+      "model": "npu:block/s/stove",
       "y": 270,
       "uvlock": false
     }

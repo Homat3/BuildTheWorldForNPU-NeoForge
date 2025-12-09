@@ -1,0 +1,14 @@
+{
+  "id": "vehicle_entity",
+  "group": [
+    {
+      "template": "spawn_vehicle",
+      "items": [
+        "bike1",
+        "bike2",
+        "bike3",
+        "school_bus"
+      ]
+    }
+  ]
+}

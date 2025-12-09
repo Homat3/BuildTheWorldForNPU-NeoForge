@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/electric"
+      "model": "npu:block/e/electric"
     },
     "facing=east": {
-      "model": "npu:block/structure/electric",
+      "model": "npu:block/e/electric",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/electric",
+      "model": "npu:block/e/electric",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/electric",
+      "model": "npu:block/e/electric",
       "y": 270,
       "uvlock": false
     }

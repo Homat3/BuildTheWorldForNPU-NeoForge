@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/fence/fence_warningline/roadblock_double2"
+    "model": "npu:block/r/roadblock_double2"
   }
 }

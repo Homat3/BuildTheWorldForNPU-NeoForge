@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/cleaning_toolbox"
+    "model": "npu:block/c/cleaning_toolbox"
   }
 }

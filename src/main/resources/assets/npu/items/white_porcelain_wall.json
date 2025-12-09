@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/wall/white_porcelain_wall"
+    "model": "npu:block/w/white_porcelain_wall"
   }
 }

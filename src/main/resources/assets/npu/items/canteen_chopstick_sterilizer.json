@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/canteen_chopstick_sterilizer"
+    "model": "npu:block/c/canteen_chopstick_sterilizer"
   }
 }

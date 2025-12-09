@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/bed/boy/bedboy_right_table"
+    "model": "npu:block/b/bedboy_right_table"
   }
 }

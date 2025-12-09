@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/tv_ceiling_single"
+      "model": "npu:block/t/tv_ceiling_single"
     },
     "facing=east": {
-      "model": "npu:block/structure/tv_ceiling_single",
+      "model": "npu:block/t/tv_ceiling_single",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/tv_ceiling_single",
+      "model": "npu:block/t/tv_ceiling_single",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/tv_ceiling_single",
+      "model": "npu:block/t/tv_ceiling_single",
       "y": 270,
       "uvlock": false
     }

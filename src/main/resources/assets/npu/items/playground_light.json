@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/playground/playground_light"
+    "model": "npu:block/p/playground_light"
   }
 }

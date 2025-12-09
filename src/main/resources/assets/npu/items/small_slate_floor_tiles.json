@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/floor/small_slate_floor_tiles"
+    "model": "npu:block/s/small_slate_floor_tiles"
   }
 }

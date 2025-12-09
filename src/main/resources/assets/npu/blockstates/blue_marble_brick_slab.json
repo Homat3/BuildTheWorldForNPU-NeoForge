@@ -1,15 +1,15 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "npu:block/brick/blue_marble_brick_slab"
+      "model": "npu:block/b/blue_marble_brick_slab"
     },
     "type=top": {
-      "model": "npu:block/brick/blue_marble_brick_slab",
+      "model": "npu:block/b/blue_marble_brick_slab",
       "x": 180,
       "uvlock": false
     },
     "type=double": {
-      "model": "npu:block/brick/blue_marble_brick",
+      "model": "npu:block/b/blue_marble_brick",
       "uvlock": false
     }
   }

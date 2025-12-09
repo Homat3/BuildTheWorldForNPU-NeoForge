@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/light_common_fly_killer_ceiling"
+      "model": "npu:block/l/light_common_fly_killer_ceiling"
     },
     "facing=east": {
-      "model": "npu:block/structure/light_common_fly_killer_ceiling",
+      "model": "npu:block/l/light_common_fly_killer_ceiling",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/light_common_fly_killer_ceiling",
+      "model": "npu:block/l/light_common_fly_killer_ceiling",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/light_common_fly_killer_ceiling",
+      "model": "npu:block/l/light_common_fly_killer_ceiling",
       "y": 270,
       "uvlock": false
     }

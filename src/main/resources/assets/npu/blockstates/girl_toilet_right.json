@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/girl_toilet_right"
+      "model": "npu:block/g/girl_toilet_right"
     },
     "facing=east": {
-      "model": "npu:block/structure/girl_toilet_right",
+      "model": "npu:block/g/girl_toilet_right",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/girl_toilet_right",
+      "model": "npu:block/g/girl_toilet_right",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/girl_toilet_right",
+      "model": "npu:block/g/girl_toilet_right",
       "y": 270,
       "uvlock": false
     }

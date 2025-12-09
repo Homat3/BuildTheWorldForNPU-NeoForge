@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/school_bus"
+    "model": "npu:item/s/school_bus"
   }
 }

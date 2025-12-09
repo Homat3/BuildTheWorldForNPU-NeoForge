@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/sign/straight_ahead_sign"
+    "model": "npu:block/s/straight_ahead_sign"
   }
 }

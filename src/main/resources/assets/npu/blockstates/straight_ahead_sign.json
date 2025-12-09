@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/sign/straight_ahead_sign"
+      "model": "npu:block/s/straight_ahead_sign"
     },
     "facing=east": {
-      "model": "npu:block/sign/straight_ahead_sign",
+      "model": "npu:block/s/straight_ahead_sign",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/sign/straight_ahead_sign",
+      "model": "npu:block/s/straight_ahead_sign",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/sign/straight_ahead_sign",
+      "model": "npu:block/s/straight_ahead_sign",
       "y": 270,
       "uvlock": false
     }

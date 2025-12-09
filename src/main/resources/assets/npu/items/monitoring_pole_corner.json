@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/monitoring_pole_corner"
+    "model": "npu:block/m/monitoring_pole_corner"
   }
 }

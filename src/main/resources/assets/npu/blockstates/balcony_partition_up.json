@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/balcony_partition_up"
+      "model": "npu:block/b/balcony_partition_up"
     },
     "facing=east": {
-      "model": "npu:block/structure/balcony_partition_up",
+      "model": "npu:block/b/balcony_partition_up",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/balcony_partition_up",
+      "model": "npu:block/b/balcony_partition_up",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/balcony_partition_up",
+      "model": "npu:block/b/balcony_partition_up",
       "y": 270,
       "uvlock": false
     }

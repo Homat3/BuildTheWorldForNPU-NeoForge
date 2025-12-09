@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/truck_pit"
+      "model": "npu:block/t/truck_pit"
     },
     "facing=east": {
-      "model": "npu:block/structure/truck_pit",
+      "model": "npu:block/t/truck_pit",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/truck_pit",
+      "model": "npu:block/t/truck_pit",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/truck_pit",
+      "model": "npu:block/t/truck_pit",
       "y": 270,
       "uvlock": false
     }

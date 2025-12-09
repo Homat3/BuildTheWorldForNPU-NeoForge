@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/road/speed_bump_edge"
+    "model": "npu:block/s/speed_bump_edge"
   }
 }

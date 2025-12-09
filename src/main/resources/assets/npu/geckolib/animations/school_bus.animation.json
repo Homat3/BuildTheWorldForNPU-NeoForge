@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.ModelSchoolBus.move": {
+		"animation.school_bus.move": {
 			"loop": true,
 			"animation_length": 0.3,
 			"bones": {

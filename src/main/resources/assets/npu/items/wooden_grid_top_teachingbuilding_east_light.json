@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/grille_ceiling/wooden_grid_top_teachingbuilding_east_light"
+    "model": "npu:block/w/wooden_grid_top_teachingbuilding_east_light"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/d/door_wood_huge_33_close"
+    },
+    "facing=east": {
+      "model": "npu:block/d/door_wood_huge_33_close",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/d/door_wood_huge_33_close",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/d/door_wood_huge_33_close",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

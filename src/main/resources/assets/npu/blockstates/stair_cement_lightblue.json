@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "npu:block/s/stair_cement_lightblue"
+    },
+    "facing=east": {
+      "model": "npu:block/s/stair_cement_lightblue",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "npu:block/s/stair_cement_lightblue",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "npu:block/s/stair_cement_lightblue",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

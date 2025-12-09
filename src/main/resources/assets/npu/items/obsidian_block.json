@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/obsidian_block"
+    "model": "npu:block/o/obsidian_block"
   }
 }

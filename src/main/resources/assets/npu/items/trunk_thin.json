@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/trunk_thin"
+    "model": "npu:block/t/trunk_thin"
   }
 }

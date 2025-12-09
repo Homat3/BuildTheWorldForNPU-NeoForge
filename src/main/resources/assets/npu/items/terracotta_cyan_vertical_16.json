@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/brick/terracotta_cyan_vertical_16"
+    "model": "npu:block/t/terracotta_cyan_vertical_16"
   }
 }

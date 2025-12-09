@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/girl_table"
+    "model": "npu:block/g/girl_table"
   }
 }

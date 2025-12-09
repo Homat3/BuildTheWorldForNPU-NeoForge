@@ -7,9 +7,9 @@ import software.bernie.geckolib.renderer.base.GeoRenderState;
 
 
 public class Bike1Model extends GeoModel<Bike1> {
-    private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "bike1");
-    private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "bike1");
-    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(Reference.MODID, "textures/entity/b/bike1.png");
+    private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "bike1");
+    private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "bike1");
+    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "textures/entity/b/bike1.png");
 
     @Override
     public ResourceLocation getModelResource(GeoRenderState geoRenderState) {

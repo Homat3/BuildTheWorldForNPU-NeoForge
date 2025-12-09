@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/strange_block"
+    "model": "npu:item/s/strange_block"
   }
 }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/staircase_tiles_classroom_low"
+      "model": "npu:block/s/staircase_tiles_classroom_low"
     },
     "facing=east": {
-      "model": "npu:block/structure/staircase_tiles_classroom_low",
+      "model": "npu:block/s/staircase_tiles_classroom_low",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/staircase_tiles_classroom_low",
+      "model": "npu:block/s/staircase_tiles_classroom_low",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/staircase_tiles_classroom_low",
+      "model": "npu:block/s/staircase_tiles_classroom_low",
       "y": 270,
       "uvlock": false
     }

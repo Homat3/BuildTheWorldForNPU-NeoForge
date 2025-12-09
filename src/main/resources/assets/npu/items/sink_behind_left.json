@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/sink_behind_left"
+    "model": "npu:block/s/sink_behind_left"
   }
 }

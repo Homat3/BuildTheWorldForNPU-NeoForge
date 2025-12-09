@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/small_ceramic_tiles"
+    "model": "npu:block/s/small_ceramic_tiles"
   }
 }

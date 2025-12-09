@@ -19,6 +19,7 @@ import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
 import java.util.Objects;
+import java.util.function.Supplier;
 
 public class HorizontalDirectionalHalfSlab extends SlabBlock {
     // 额外属性
@@ -28,7 +29,7 @@ public class HorizontalDirectionalHalfSlab extends SlabBlock {
                     Codec.BOOL.fieldOf("can_be_double").forGetter(p -> p.canBeDouble)
             ).apply(instance, HorizontalDirectionalHalfSlab::new)
     );
-    public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
+    protected static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     protected boolean canBeDouble;
     @Override
     public @NotNull MapCodec<? extends HorizontalDirectionalHalfSlab> codec() {
@@ -36,18 +37,12 @@ public class HorizontalDirectionalHalfSlab extends SlabBlock {
     }
 
     // 构造
-    public HorizontalDirectionalHalfSlab(Properties properties) {
-        super(properties);
-        this.canBeDouble = true;
-    }
     private HorizontalDirectionalHalfSlab(Properties properties, boolean canBeDouble){
         super(properties);
         this.canBeDouble = canBeDouble;
     }
-    // 与构造并用
-    public HorizontalDirectionalHalfSlab setCanBeDouble(boolean canBeDouble) {
-        this.canBeDouble = canBeDouble;
-        return this;
+    public static Supplier<HorizontalDirectionalHalfSlab> Factory(Properties properties, boolean canBeDouble) {
+        return () -> new HorizontalDirectionalHalfSlab(properties, canBeDouble);
     }
 
     // 额外属性注册

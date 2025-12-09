@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/sign/signpost_top"
+    "model": "npu:block/s/signpost_top"
   }
 }

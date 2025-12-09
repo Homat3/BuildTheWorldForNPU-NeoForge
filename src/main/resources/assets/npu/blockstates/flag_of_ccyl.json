@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/sign/flag_of_ccyl"
+      "model": "npu:block/f/flag_of_ccyl"
     },
     "facing=east": {
-      "model": "npu:block/sign/flag_of_ccyl",
+      "model": "npu:block/f/flag_of_ccyl",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/sign/flag_of_ccyl",
+      "model": "npu:block/f/flag_of_ccyl",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/sign/flag_of_ccyl",
+      "model": "npu:block/f/flag_of_ccyl",
       "y": 270,
       "uvlock": false
     }

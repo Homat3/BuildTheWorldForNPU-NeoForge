@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/golden_chicken_spawn_egg"
+    "model": "npu:item/g/golden_chicken_spawn_egg"
   }
 }

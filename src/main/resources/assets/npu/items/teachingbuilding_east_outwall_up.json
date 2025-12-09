@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/wall/teachingbuilding_east_outwall_up"
+    "model": "npu:block/t/teachingbuilding_east_outwall_up"
   }
 }

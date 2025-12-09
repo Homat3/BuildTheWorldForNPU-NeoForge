@@ -1,0 +1,173 @@
+{
+  "id": "door_and_window_block",
+  "group": [
+    {
+      "template": "horizontal_meticulous_iron_occlusion_transparent",
+      "items": [
+        "window_dormitory_cloud_f_left",
+        "window_dormitory_cloud_f_right",
+        "girl_dormitory_door",
+        "girl_dormitory_door_window",
+        "girl_dormitory_small_door_window"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_occlusion",
+      "items": [
+        "door_dormitory_cloud_f_behind_up_slant",
+        "door_dormitory_cloud_f_up",
+        "door_toilet_cloud_f_behind_slant",
+        "door_toilet_cloud_f_behind_up_slant",
+        "door_toilet_cloud_f_left",
+        "door_toilet_cloud_f_left_up"
+      ]
+    },
+    {
+      "template": "window_meticulous_iron_transparent_model",
+      "items": [
+        "black_door1",
+        "black_door2",
+        "blue_door1",
+        "blue_door2"
+      ]
+    },
+    {
+      "template": "window_meticulous_iron_transparent",
+      "items": [
+        "blue_window2",
+        "door_wood_white_no_window_23",
+        "black_window2",
+        "door_wood_white_left_23",
+        "door_wood_black_huge_23",
+        "door_wood_white_huge_23",
+        "door_wood_black_left_23",
+        "door_wood_black_no_window_23"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_occlusion",
+      "items": [
+        "dining_hall_counter_glass_middle"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron",
+      "items":[
+        "access_control_electric_entrance",
+        "glass_frame1",
+        "glass_frame2",
+        "yunf_framed_balcony_door",
+        "yunf_framed_balcony_door_up"
+      ]
+    },
+    {
+      "template": "horizontal_rough_iron_transparent",
+      "items": [
+        "black_blinds",
+        "black_window1",
+        "black_window1_no_logo",
+        "black_window2_railing",
+        "black_window3",
+        "black_window4",
+        "black_window4_logo",
+        "black_window5",
+        "black_window6",
+        "black_window7",
+        "black_window8",
+        "black_window_corner_1",
+        "black_window_corner_2",
+        "black_window_corner_3",
+        "black_window_single",
+        "black_window_small_grey",
+        "black_window_small_white",
+        "blue_window1",
+        "blue_window1_no_logo",
+        "blue_window2_railing",
+        "blue_window3",
+        "blue_window4",
+        "blue_window4_logo",
+        "blue_window5",
+        "blue_window6",
+        "blue_window7",
+        "blue_window8",
+        "blue_window_corner_1",
+        "blue_window_corner_2",
+        "blue_window_corner_3"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron",
+      "items": [
+        "door_dormitory_balcony",
+        "door_dormitory_balcony_add_up",
+        "door_dormitory_balcony_bottom_left",
+        "door_elevator",
+        "door_frame_side_sliding",
+        "dormitory_entrance_double_left",
+        "dormitory_entrance_double_right",
+        "dormitory_entrance_frame",
+        "dormitory_entrance_single_left",
+        "dormitory_entrance_single_right",
+        "dormitory_entrance_skylight"
+      ]
+    },
+    {
+      "template": "horizontal_meticulous_iron_transparent",
+      "items": [
+        "blue_window_grille1",
+        "blue_window_grille2",
+        "blue_window_grille3",
+        "blue_window_left",
+        "blue_window_right",
+        "blue_window_single",
+        "blue_window_small_grey",
+        "door_double_glass_indoor",
+        "door_iron_huge_23",
+        "door_iron_huge_33",
+        "door_wood_black_right_23_close",
+        "door_wood_black_right_small_13_close",
+        "door_wood_huge_23_close",
+        "door_wood_huge_33_close",
+        "door_wood_white_corridor_left",
+        "door_wood_white_corridor_right",
+        "door_wood_white_right_23_close",
+        "test_glass",
+        "white_window",
+        "white_window_railing",
+        "window1",
+        "window10",
+        "window11",
+        "window2",
+        "window2_fixed",
+        "window3",
+        "window4",
+        "window4_fixed",
+        "window5",
+        "window6",
+        "window7",
+        "window8",
+        "window9",
+        "windowframe",
+        "window_out",
+        "dormitory_balcony_door_left_up",
+        "dormitory_balcony_door_right_down",
+        "dormitory_balcony_door_right_up",
+        "framed_balcony_door",
+        "white_window_small"
+      ]
+    },
+    {
+      "template": "normal_rough_iron",
+      "items": [
+        "window_ceiling"
+      ]
+    },
+    {
+      "template": "horizontal_half_iron_transparent",
+      "items": [
+        "glass_wall_half",
+        "glass_wall_quarter"
+      ]
+    }
+  ]
+}

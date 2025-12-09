@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/wall/gray_brick_wall_slab_v"
+    "model": "npu:block/g/gray_brick_wall_slab_v"
   }
 }

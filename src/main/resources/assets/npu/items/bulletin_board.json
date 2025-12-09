@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/bulletin_board"
+    "model": "npu:block/b/bulletin_board"
   }
 }

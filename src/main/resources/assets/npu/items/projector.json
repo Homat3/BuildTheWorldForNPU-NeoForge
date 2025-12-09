@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/projector"
+    "model": "npu:block/p/projector"
   }
 }

@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/sink_mid"
+      "model": "npu:block/s/sink_mid"
     },
     "facing=east": {
-      "model": "npu:block/structure/sink_mid",
+      "model": "npu:block/s/sink_mid",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/sink_mid",
+      "model": "npu:block/s/sink_mid",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/sink_mid",
+      "model": "npu:block/s/sink_mid",
       "y": 270,
       "uvlock": false
     }

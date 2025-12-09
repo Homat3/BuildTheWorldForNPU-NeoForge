@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/sign/sign"
+    "model": "npu:block/s/sign"
   }
 }

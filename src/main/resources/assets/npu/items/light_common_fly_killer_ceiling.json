@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/light_common_fly_killer_ceiling"
+    "model": "npu:block/l/light_common_fly_killer_ceiling"
   }
 }

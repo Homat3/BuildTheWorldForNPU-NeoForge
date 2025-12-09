@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/pipe_yellow_corner3"
+    "model": "npu:block/p/pipe_yellow_corner3"
   }
 }

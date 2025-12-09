@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/camera/camera_ceil"
+    "model": "npu:block/c/camera_ceil"
   }
 }

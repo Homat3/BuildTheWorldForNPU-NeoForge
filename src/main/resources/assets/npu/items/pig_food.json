@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/pig_food"
+    "model": "npu:item/p/pig_food"
   }
 }

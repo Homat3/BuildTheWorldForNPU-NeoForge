@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/metal_trolley2"
+    "model": "npu:block/m/metal_trolley2"
   }
 }

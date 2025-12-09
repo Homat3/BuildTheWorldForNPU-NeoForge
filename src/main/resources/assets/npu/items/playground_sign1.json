@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/playground/playground_sign1"
+    "model": "npu:block/p/playground_sign1"
   }
 }

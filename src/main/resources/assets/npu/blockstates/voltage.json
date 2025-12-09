@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/voltage"
+      "model": "npu:block/v/voltage"
     },
     "facing=east": {
-      "model": "npu:block/structure/voltage",
+      "model": "npu:block/v/voltage",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/voltage",
+      "model": "npu:block/v/voltage",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/voltage",
+      "model": "npu:block/v/voltage",
       "y": 270,
       "uvlock": false
     }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/large_street_lamp_base"
+    "model": "npu:block/l/large_street_lamp_base"
   }
 }

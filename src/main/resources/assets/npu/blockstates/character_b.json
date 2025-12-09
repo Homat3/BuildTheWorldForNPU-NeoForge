@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/sign/character_b"
+      "model": "npu:block/c/character_b"
     },
     "facing=east": {
-      "model": "npu:block/sign/character_b",
+      "model": "npu:block/c/character_b",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/sign/character_b",
+      "model": "npu:block/c/character_b",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/sign/character_b",
+      "model": "npu:block/c/character_b",
       "y": 270,
       "uvlock": false
     }

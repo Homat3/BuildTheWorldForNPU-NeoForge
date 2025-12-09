@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/small_electric_brake"
+    "model": "npu:block/s/small_electric_brake"
   }
 }

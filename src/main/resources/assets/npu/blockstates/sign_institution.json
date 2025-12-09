@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/sign/sign_institution"
+      "model": "npu:block/s/sign_institution"
     },
     "facing=east": {
-      "model": "npu:block/sign/sign_institution",
+      "model": "npu:block/s/sign_institution",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/sign/sign_institution",
+      "model": "npu:block/s/sign_institution",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/sign/sign_institution",
+      "model": "npu:block/s/sign_institution",
       "y": 270,
       "uvlock": false
     }

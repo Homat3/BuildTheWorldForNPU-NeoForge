@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/market_milk_box"
+      "model": "npu:block/m/market_milk_box"
     },
     "facing=east": {
-      "model": "npu:block/structure/market_milk_box",
+      "model": "npu:block/m/market_milk_box",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/market_milk_box",
+      "model": "npu:block/m/market_milk_box",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/market_milk_box",
+      "model": "npu:block/m/market_milk_box",
       "y": 270,
       "uvlock": false
     }

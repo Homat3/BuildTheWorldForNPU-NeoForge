@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/cartons_group"
+    "model": "npu:block/c/cartons_group"
   }
 }

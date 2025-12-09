@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:item/league_badge"
+    "model": "npu:item/l/league_badge"
   }
 }

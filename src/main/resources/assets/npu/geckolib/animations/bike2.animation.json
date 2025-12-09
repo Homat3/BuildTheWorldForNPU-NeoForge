@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.ModelBike2.front": {
+		"animation.bike2.front": {
 			"loop": true,
 			"animation_length": 0.75,
 			"bones": {
@@ -37,7 +37,7 @@
 				}
 			}
 		},
-		"animation.ModelBike2.back": {
+		"animation.bike2.back": {
 			"loop": true,
 			"animation_length": 0.75,
 			"bones": {

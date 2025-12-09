@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/pen_prop"
+      "model": "npu:block/p/pen_prop"
     },
     "facing=east": {
-      "model": "npu:block/structure/pen_prop",
+      "model": "npu:block/p/pen_prop",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/pen_prop",
+      "model": "npu:block/p/pen_prop",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/pen_prop",
+      "model": "npu:block/p/pen_prop",
       "y": 270,
       "uvlock": false
     }

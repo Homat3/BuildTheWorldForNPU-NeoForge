@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/base_tower_large"
+    "model": "npu:block/b/base_tower_large"
   }
 }

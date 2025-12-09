@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/plastic_brick_wall_skewed"
+      "model": "npu:block/p/plastic_brick_wall_skewed"
     },
     "facing=east": {
-      "model": "npu:block/structure/plastic_brick_wall_skewed",
+      "model": "npu:block/p/plastic_brick_wall_skewed",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/plastic_brick_wall_skewed",
+      "model": "npu:block/p/plastic_brick_wall_skewed",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/plastic_brick_wall_skewed",
+      "model": "npu:block/p/plastic_brick_wall_skewed",
       "y": 270,
       "uvlock": false
     }

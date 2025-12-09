@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/quartz_block_slab_v"
+    "model": "npu:block/q/quartz_block_slab_v"
   }
 }

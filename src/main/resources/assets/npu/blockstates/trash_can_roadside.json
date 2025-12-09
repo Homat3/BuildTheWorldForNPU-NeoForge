@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/trash_can_roadside"
+      "model": "npu:block/t/trash_can_roadside"
     },
     "facing=east": {
-      "model": "npu:block/structure/trash_can_roadside",
+      "model": "npu:block/t/trash_can_roadside",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/trash_can_roadside",
+      "model": "npu:block/t/trash_can_roadside",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/trash_can_roadside",
+      "model": "npu:block/t/trash_can_roadside",
       "y": 270,
       "uvlock": false
     }

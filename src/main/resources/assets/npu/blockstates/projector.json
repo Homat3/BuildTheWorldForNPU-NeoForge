@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/projector"
+      "model": "npu:block/p/projector"
     },
     "facing=east": {
-      "model": "npu:block/structure/projector",
+      "model": "npu:block/p/projector",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/projector",
+      "model": "npu:block/p/projector",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/projector",
+      "model": "npu:block/p/projector",
       "y": 270,
       "uvlock": false
     }

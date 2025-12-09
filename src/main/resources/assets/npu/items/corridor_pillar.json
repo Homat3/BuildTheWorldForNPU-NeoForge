@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/railing/corridor_pillar"
+    "model": "npu:block/c/corridor_pillar"
   }
 }

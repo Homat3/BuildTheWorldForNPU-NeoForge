@@ -1,0 +1,10 @@
+{
+  "StructureType": "HORIZONTAL_DIRECTIONAL_HALF_SLAB",
+  "Material": "IRON",
+  "double_enable": true,
+  "noOcclusion": true,
+  "noCollision": false,
+  "noLootTable": false,
+  "noParticlesOnBreak": false,
+  "id": "horizontal_half_iron_double"
+}

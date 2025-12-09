@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/brick/blue_brick"
+    "model": "npu:block/b/blue_brick"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/decoration/digital_calendar"
+    "model": "npu:block/d/digital_calendar"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "npu:block/structure/classroom_microphone"
+    "model": "npu:block/c/classroom_microphone"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "npu:block/road/road_sign_pole"
+      "model": "npu:block/r/road_sign_pole"
     }
   }
 }

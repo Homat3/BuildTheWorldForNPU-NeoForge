@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "npu:block/structure/single_compartment_sink"
+      "model": "npu:block/s/single_compartment_sink"
     },
     "facing=east": {
-      "model": "npu:block/structure/single_compartment_sink",
+      "model": "npu:block/s/single_compartment_sink",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "npu:block/structure/single_compartment_sink",
+      "model": "npu:block/s/single_compartment_sink",
       "y": 180,
       "uvlock": false
     },
     "facing=west": {
-      "model": "npu:block/structure/single_compartment_sink",
+      "model": "npu:block/s/single_compartment_sink",
       "y": 270,
       "uvlock": false
     }

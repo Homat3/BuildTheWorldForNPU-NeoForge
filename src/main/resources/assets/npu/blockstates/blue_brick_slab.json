@@ -1,14 +1,14 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "npu:block/brick/blue_brick_slab"
+      "model": "npu:block/b/blue_brick_slab"
     },
     "type=top": {
-      "model": "npu:block/brick/blue_brick_slab",
+      "model": "npu:block/b/blue_brick_slab",
       "x": 180
     },
     "type=double": {
-      "model": "npu:block/brick/blue_brick"
+      "model": "npu:block/b/blue_brick"
     }
   }
 }
